@@ -1,0 +1,16 @@
+
+ *** Meges Gestion de Pagos y Cobros ***
+
+Meges es una aplicación web que corre sobre navegadores firefox. Se instala sobre un servidor Apache, y utiliza una base de datos MySQL.
+
+Para realizar la instalación hay que ejecutar los comandos SQL del fichero esquemas/meges.sql sobre una base de datos MySQL.
+
+A continuación hay que editar el fichero db.php, y ajustar las variables siguientes:
+        $ges_database = "meges";//nombre de la base de datos
+        $global_host_db = "localhost";//host de la bd
+        $global_user_db = "root";//usuario de la bd
+        $global_pass_db = "";//contraseña de la bd
+
+Por defecto esta creado un usuario de nombre "usuario" y contraseña "user0", como administrador.
+
+
